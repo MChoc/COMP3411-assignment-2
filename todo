@@ -1,0 +1,31 @@
+Current workflow
+
+
+1. Read in data and give it headers (it came without headers)
+
+2. NA values == '?' so drop those
+
+3. Splitting the data manually into X and y
+    * the data already comes split train/test
+
+4. Split columns and one hot encode columns that are categorical and recombine
+    * give the one hot encoder the required categories
+    * use a custom BaseEstimator and TransformerMixin so I can pipe?
+
+5. Label encode the y column
+
+6. Run algorithm
+
+===============================================================================
+Proposed workflow
+
+
+1. Read in data and give it headers
+    * it came without headers
+
+2. NA values == '?' so drop those
+
+3. Splitting the data manually into X and y
+    * the data already comes split train/test
+
+4. Random fucking shit going on here
